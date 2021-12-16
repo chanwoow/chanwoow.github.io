@@ -6,11 +6,9 @@ tags: [GA]
 comments: true
 ---
 
-
-아래의 사진은 본 사이트에 구글 애널리틱스가 적용되어 실시간 개요를 확인하는 화면을 캡쳐한 것이다.
-
 ![Captured Image]({{"/assets/img/ga-capture.png"|relative_url}})
 
+위의 사진은 본 사이트에 구글 애널리틱스가 적용되어 실시간 개요를 확인하는 화면을 캡쳐한 것이다.
 
 구글 애널리틱스를 사용하기 위해 우선 [구글 애널리틱스 홈페이지](https://analytics.google.com/analytics/web/provision/#/provision)에 진입했다.
 
