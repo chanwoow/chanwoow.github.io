@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Ninja
+title: Project 1
 img: "assets/img/portfolio/ninja.png"
-date: April, 08 2014
-tags: [Lorem]
+date: December, 16 2021
+tags: [Project]
 ---
 
 향후 프로젝트 수행 시 추가 예정.

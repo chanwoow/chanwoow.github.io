@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Tower of Hanoi
+title: Project 4
 img: "assets/img/portfolio/toh.png"
-date: September 2014
+date: December, 16 2021
+tags: [Project]
 ---
 
 향후 프로젝트 수행 시 추가 예정.

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Jekyll
+title: Project 7
 feature-img: "assets/img/portfolio/cabin.png"
 img: "assets/img/portfolio/cabin.png"
-date: 2017-05-26
+date: December, 16 2021
+tags: [Project]
 ---
 
 향후 프로젝트 수행 시 추가 예정.

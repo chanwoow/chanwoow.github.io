@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Circus
+title: Project 3
 img: "assets/img/portfolio/circus.png"
-date: September 2014
-tags: [Ipsum]
+date: December, 16 2021
+tags: [Project]
 ---
 
 향후 프로젝트 수행 시 추가 예정.
