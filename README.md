@@ -1,4 +1,4 @@
-# Type on Strap 🎨
+# Chanwoo Lee's Blog
 
 
 ## 개요
@@ -6,7 +6,6 @@ chanwoow.github.io는 블로그를 구현하기 위해 만든 사이트로, 2021
 
 ## 환경 설정
 - 우선 본 계정인 chanwoow에 웹페이지로 만들어질 원격 저장소를 생성했다. 생성한 후, 디렉토리로 이동하여 `git clone https://github.com/chanwoow/chanwoow.github.io.git` 를 통해 로컬 저장소에 연결시켰다.
-
 
 - 그리고 [Jekyll 공식 사이트의 Windows 설치 안내](https://jekyllrb-ko.github.io/docs/installation/windows/)를 참고하여 RubyInstaller를 이용해 윈도우 환경에 Jekyll을 다운로드하였고, `gem install jekyll bundler` 명령을 입력하여 Jekyll과 Bundler를 설치하였다.
 
@@ -20,6 +19,13 @@ chanwoow.github.io는 블로그를 구현하기 위해 만든 사이트로, 2021
 
 - 처음 테마를 적용했을 때, 로컬에서 실행했을 때에는 정상적으로 사이트가 표시되지만 원격에서 실행하면 CSS가 깨지는 현상이 발생했다. 이를 해결하기 위해 구글링하는 과정을 거쳤고, `_config.yml`의 baseurl 부분을 빈 문자열로 처리하여 CSS 깨짐 문제를 해결하였다.
 
+
+## 댓글 기능 추가
+- 댓글 기능을 추가하기 위해 [Disqus 홈페이지](https://disqus.com/)에서 가입 절차를 거쳤고, 사이트 정보 입력, 플랫폼 중 Jekyll 선택 등의 과정을 거쳤다. 그리고 표시된 Universal Code를 복사했다.
+
+- 처음에는 복사한 코드를 단순히 Post에 해당하는 파일인 `post.liquid`의 아랫부분에 붙여넣었다. 그랬더니 정상적으로 표시는 되었지만, 댓글이 페이지의 가로 영역을 벗어나 미적으로 좋아보이지 않았다.
+
+- 확인해보니, 본 테마의 템플릿에 Disqus 댓글 적용을 위한 `disqus.liquid`라는 별도의 파일이 있었고, 해당 파일을 이용하기 위해 `_config.yml`의 disqus shortname 부분을 알맞게 채워넣은 후 다시 적용하니 기대했던 대로 포스트의 가로 영역을 벗어나지 않도록 변경되었다.
 
 
 * Responsive design on all devices (🖥, 💻, 📱, ...)
