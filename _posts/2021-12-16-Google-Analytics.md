@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Google Analytics
-feature-img: "assets/img/ga-capture.png"
 tags: [GA]
 comments: true
 ---
+
+![Captured Image]({{"/assets/img/ga-capture"|relative_url}})
+
 
 위 사진은 본 사이트에 구글 애널리틱스가 적용되어 실시간 개요를 확인하는 화면을 캡쳐한 것이다.
 
