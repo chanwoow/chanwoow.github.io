@@ -1,12 +1,24 @@
 # Type on Strap 🎨
 
-[![Build](https://github.com/sylhare/Type-on-Strap/actions/workflows/jekyll-build.yml/badge.svg)](https://github.com/sylhare/Type-on-Strap/actions/workflows/jekyll-build.yml)
-[![Gem Version](https://badge.fury.io/rb/type-on-strap.svg)](https://badge.fury.io/rb/type-on-strap)
-[![Docker Pulls](https://img.shields.io/docker/pulls/sylhare/type-on-strap)](https://hub.docker.com/r/sylhare/type-on-strap)
 
-[![Default Type on Strap blog](https://github.com/Sylhare/Type-on-Strap/blob/master/assets/img/screenshot.png?raw=true)](https://sylhare.github.io/Type-on-Strap/)
+## 개요
+chanwoow.github.io는 블로그를 구현하기 위해 만든 사이트로, 2021학년 2학기 강의인 유레카프로젝트에서 진행되었던 깃 블로그 강의를 기반으로 웹사이트를 설계하고자 노력하였다. 웹사이트를 만들기 위해 강의를 순차적으로 따랐고, 구체적으로 아래의 과정을 거쳤다.
 
-A free and open-source [Jekyll](https://jekyllrb.com) theme. Based on Rohan Chandra [type-theme](https://github.com/rohanchandra/type-theme) packed with extra features and easily customizable:
+## 환경 설정
+- 우선 본 계정인 chanwoow에 웹페이지로 만들어질 원격 저장소를 생성했다. 생성한 후, 디렉토리로 이동하여 git clone https://github.com/chanwoow/chanwoow.github.io.git 를 통해 로컬 저장소에 연결시켰다.
+
+
+- 그리고 https://jekyllrb-ko.github.io/docs/installation/windows/ 사이트를 참고하여 RubyInstaller를 이용해 윈도우 환경에 Jekyll을 다운로드하였고, gem install jekyll bundler 명령을 입력하여 Jekyll과 Bundler를 설치하였다.
+
+- 또한 jekyll new. --force 명령을 통해 현재 디렉토리에 Jekyll을 설치하였다.
+
+- 그리고 bundle exec jekyll serve를 실행하는 과정에서 발생하는 의존성 문제를 해결하기 위해 bundle add webrick 명령을 사용하였다.
+
+
+## 테마 설정
+- 모든 환경 설정을 마친 후, 새로운 테마를 불러오기 위해 기존 원격 저장소를 삭제했다. 그리고 새 원격 저장소를 만들어 sylhare 유저의 Type-on-Strap 테마를 fork를 통해 불러왔고, 해당 저장소의 이름을 chanwoow.github.io로 변경했다. 그리고 fork한 결과를 로컬 저장소에 재연결시켰다.
+
+
 
 * Responsive design on all devices (🖥, 💻, 📱, ...)
 * Portfolio 🗂, Gallery 🖼 pages for your projects
