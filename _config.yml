@@ -6,7 +6,7 @@ url: "https://chanwoow.github.io"
 title: Chanwoo Lee's Blog                                    # site's title
 description: "A website with blog posts and pages"      # used by search engines
 avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/blue-favicon.ico                             # Icon displayed in the tab
+favicon: assets/img/triangle.png                             # Icon displayed in the tab
 
 # Header and footer text
 header_text: Chanwoo Lee's Blog  # Change Blog header text
